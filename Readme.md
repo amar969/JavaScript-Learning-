@@ -1,6 +1,6 @@
 # Advance JavaScript Learning 
 
-1. [Primitive Data](./primitive.js)
+1. [Primitive Data](./Primitive/primitive.js)
     - String 
     - Number
     - Boolean 
