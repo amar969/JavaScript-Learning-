@@ -38,9 +38,10 @@ Why undefined == null gives true and undefined === null gives us false value?
 </tr>
 
 <tr>
-<td>A Gold or cash is can be good example of Primitive data type. You are storing actual elements </td>
-<td> A property papers are reference of the property. In land case we will not store the actual value </td>
+<td>A Gold or cash can be good example of Primitive data type. You are storing actual elements </td>
+<td> A property papers are reference of the property. In land case we will not store the actual value. Hence the property papers are good example of Non-primitive data types</td>
 </tr>
 </tbody>
-
 </table>
+
+
