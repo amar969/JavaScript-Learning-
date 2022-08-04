@@ -20,10 +20,10 @@
  [Execution context]("https://miro.medium.com/max/1400/1*bDebsOuhRx9NMyvLHY2zxA.gif")
 
 ### JS engine creates the execution context in the following two stages:
-...
+```
 1. Creation Phase
 2. Execution Phase
-...
+```
 
 ## Creation Phase - 
 Creation phase is the phase in which the JS engine has called a function but its execution has not started. In the creation phase, JS engine is in the compilation phase and it just scans over the function code to compile the code, it doesn’t execute any code.
