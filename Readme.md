@@ -21,3 +21,7 @@ JavaScript is an inherently single-threaded language. It was designed in an era 
 
 3. [Execution Context, Scopes ](./Execution-Context)
     - Execution context (EC) is defined as the environment in which the JavaScript code is executed. By environment, I mean what variables, objects, functions JavaScript code has access to at a particular time.
+
+4. [CallApplyBind](./CallApplyBind/)
+
+5. [Debounce](./debounce/)

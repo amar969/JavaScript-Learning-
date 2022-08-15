@@ -17,10 +17,30 @@ All javascript functions have access to some very special methods which we can u
 ## Call()
 call() - provides a new value of this to the function/method
 
+Call takes individual arguments separated by commas
+printObj.call(obj, 20, "Mumbai")
+
+
 ## Apply()
 apply() - method is same as call method. they just take the argument differently. 
 
-Call takes individual arguments separated by commas
-printObj.call(obj, 20, "Mumbai")
 apply takes a single array of arguments 
 printObj.bind(obj, [20, "Mumbai"])
+
+## bind()
+bind() - The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+
+```
+let name3 = {
+    first_name: "PikaChu", 
+}
+let pokemon = function() {
+    console.log("I choose you " + this.first_name)
+}
+
+let pokemon1 = pokemon.bind(name3) 
+
+pokemon1()
+```
+
+
