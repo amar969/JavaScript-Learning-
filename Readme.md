@@ -25,3 +25,5 @@ JavaScript is an inherently single-threaded language. It was designed in an era 
 4. [CallApplyBind](./CallApplyBind/)
 
 5. [Debounce](./debounce/)
+
+6. [JavaScript Questions](./JavaScript%20Questions%20/)

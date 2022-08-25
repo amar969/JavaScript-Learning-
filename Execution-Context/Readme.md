@@ -1,5 +1,56 @@
 # Execution Context 
 
+Everything in JS happens inside excution context. As soon as JS start excute the code it create the Execution context. We can thing of execution context as a big box. Execution context create seperate space to maintain the things. 
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Memory (Also called as Variable Environment)
+</th>
+
+<th>
+Code (also called as Thread of execution)
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+varibles and function are stored in key value 
+
+{
+  a : 10
+}
+
+fn: {
+
+}
+</td>
+
+<td>
+code will be executed line by line 
+- code 
+- code
+- code 
+
+</td>
+
+</tr>
+
+
+</tbody>
+
+</table>
+
 1. Execution context (EC) is defined as the environment in which the JavaScript code is executed. By environment, I mean what variables, objects, functions JavaScript code has access to at a particular time.
 
 ## Execution context are of threee types 
