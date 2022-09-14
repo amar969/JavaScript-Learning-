@@ -1,3 +1,6 @@
+console.log(age)
+var age = 122
+
 catName("Tiger");
 
 function catName(name) {
@@ -5,14 +8,13 @@ function catName(name) {
 }
 
 // Because of hoisting we can use function even before the execution line of code
-
 // Without Hoisting we have to write the same code 
 
 function catName(name) {
     console.log("My cat's name is " + name);
   }
   
-  catName("Tiger");
+catName("Tiger");
 
 // Variable Hositing
 
@@ -30,5 +32,5 @@ num2 = 6; // Initialization
 
 // Let 
 
-console.log(num); // Throws ReferenceError exception as the variable value is uninitialized
-let num = 6; // Initialization
+console.log(num5); // Throws ReferenceError exception as the variable value is uninitialized
+let num5 = 6; // Initialization
