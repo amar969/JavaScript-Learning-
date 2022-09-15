@@ -43,3 +43,4 @@ let pokemon = function() {
 let pokemon1 = pokemon.bind(name3) 
 
 pokemon1()
+
